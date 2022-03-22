@@ -1,0 +1,68 @@
+/* Шрифти 
+Open Sans 400, 600, 700
+
+Raleway 700
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+:root {
+  --first-text-color: #555555;
+  --second-text-color: #9da4bd;
+  --third-text-color: rgba(157, 164, 189, 0.6);
+
+  --title-text-color: #303030;
+
+  --accent-color: #ff6c00;
+}
+
+/* UTILITY */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+.page-header {
+  background-color: #7e2727;
+}
+
+.page-header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.page-header-link:hover,
+.page-header-link:focus {
+  color: var(--accent-color);
+}
+
+/* CONTACT */
+.contact-button {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.contact-button:hover,
+.contact-button:focus {
+  background-color: #ff6c00;
+}
