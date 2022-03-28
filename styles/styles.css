@@ -14,6 +14,8 @@ font-family: 'Raleway', sans-serif;*/
   --title-text-color: #303030;
 
   --accent-color: #ff6c00;
+
+  --white-color: #ffffff;
 }
 
 /* UTILITY */
@@ -42,7 +44,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.1em;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .page-header-link:hover,
@@ -52,17 +54,377 @@ body {
 
 /* CONTACT */
 .contact-button {
-  font-family: "Open Sans";
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .contact-button:hover,
 .contact-button:focus {
   background-color: #ff6c00;
+}
+
+/* SOCIAL */
+.social-link {
+  color: var(--title-text-color);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.2em;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  background-color: blueviolet;
+}
+
+.hero-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--third-text-color);
+}
+
+.hero-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+
+  letter-spacing: 0.05em;
+
+  color: var(--white-color);
+}
+
+.hero-post-text {
+  font-size: 18px;
+  line-height: 1.17;
+
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+/* ABOUT */
+.about-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.about-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--title-text-color);
+}
+
+.about-text-first {
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--first-text-color);
+}
+
+.about-text-second {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+
+  letter-spacing: 0.02em;
+
+  color: var(--first-text-color);
+}
+
+.about-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.about-button:hover,
+.about-button:focus {
+  color: #ffffff;
+  background-color: #ff6c00;
+}
+
+/* PRICE */
+.price {
+  background-color: blueviolet;
+}
+
+.price-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--third-text-color);
+}
+
+.price-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--white-color);
+}
+
+/** спільні властивості тексту в price */
+.price-post-text,
+.price-second-post-text {
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
+}
+
+.price-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.price-button:hover,
+.price-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* FEATURES */
+.features-pre-text {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.features-post-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  color: var(--title-text-color);
+}
+
+.features-first-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.features-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--title-text-color);
+}
+
+.features-second-text {
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--first-text-color);
+}
+
+/* MASTERS */
+.masters {
+  background-color: #f7f7f7;
+}
+
+.masters-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.masters-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--title-text-color);
+}
+
+.masters-second-title {
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.masters-second-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+
+/* GALLERY */
+.gallery-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+/* REGISTER */
+.register {
+  background-color: #191c26;
+}
+
+.register-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--white-color);
+}
+
+.register-button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.register-button:hover,
+.register-button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* CONTACT */
+.contact {
+  background-color: #191c26;
+}
+
+.contact-title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--white-color);
+}
+
+.contact-second-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.contact-link,
+.contact-third-text {
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--second-text-color);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.page-footer-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.2em;
+
+  color: var(--second-text-color);
+}
+
+.page-footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--title-text-color);
 }
